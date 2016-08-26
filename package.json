@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "gh-pages-deploy": "^0.4.2",
     "react-scripts": "0.2.3"
   },
   "dependencies": {
@@ -24,8 +25,7 @@
     "prep": [
       "build"
     ],
-    "post": [
-    ],
+    "post": [],
     "noprompt": false
-  },
+  }
 }
