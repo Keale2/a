@@ -17,5 +17,15 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
-  }
+  },
+  "gh-pages-deploy": {
+    "staticpath": "build",
+    "cname": "brewbear.com",
+    "prep": [
+      "build"
+    ],
+    "post": [
+    ],
+    "noprompt": false
+  },
 }
